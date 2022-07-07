@@ -1,7 +1,7 @@
 import logging
 import re
 import pkg_resources
-from urllib.parse import urlparse
+from urllib import parse as urlparse
 #import urlparse
 
 from xblock.core import XBlock
