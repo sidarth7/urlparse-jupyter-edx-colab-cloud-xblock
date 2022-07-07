@@ -1,7 +1,8 @@
 import logging
 import re
 import pkg_resources
-import urlparse
+from urllib.parse import urlparse
+#import urlparse
 
 from xblock.core import XBlock
 from xblock.fields import Scope, String, Integer, Boolean
